@@ -1,0 +1,20 @@
+name: "IS415_blog"
+title: "IS415"
+description: |
+  IS415 
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Take-home Exercise"
+      menu: 
+      - text: "Take-home Exercise1"
+        href: index.html
+      - text: "Take-home Exercise2"
+        href: index.html
+      - text: "Take-home Exercise3"
+        href: index.html
+    - text: "In-class Exercise"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
